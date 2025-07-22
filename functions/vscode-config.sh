@@ -12,7 +12,7 @@ function vsconfig () {
 
     # copy template
     echo "Copying settings.json template..."
-    cp /home/kevin/scripts/templates/vscode/settings.json ./.vscode
+    cp "$SCRIPT_ROOT/templates/vscode/settings.json" ./.vscode
 
     echo "Done."
 }
