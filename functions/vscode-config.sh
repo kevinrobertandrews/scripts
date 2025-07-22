@@ -1,7 +1,4 @@
 #!/bin/bash
-
-echo "registering vscofig function"
-
 function vsconfig () {
     echo "Making .vscode folder..."
 
@@ -14,7 +11,7 @@ function vsconfig () {
     fi
 
     # copy template
-    echo "copying template"
+    echo "Copying settings.json template..."
     cp /home/kevin/scripts/templates/vscode/settings.json ./.vscode
 
     echo "Done."
